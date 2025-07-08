@@ -1,11 +1,8 @@
 body {
-  body {
   margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-style: normal;
-}
-
 }
 
 .header {
@@ -13,7 +10,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  background-color: white; /* this will be deleted (just for better visualisation) */
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
 }
 
 .nav-items {
@@ -22,6 +25,7 @@ body {
   list-style-type: none;
   margin: 0;
   height: 60px;
+  padding: 0;
 }
 
 .nav-item {
@@ -46,7 +50,8 @@ body {
   align-items: center;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link[data-qa='hover']:hover {
   color: #00acdc;
 }
 
