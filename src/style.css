@@ -1,12 +1,11 @@
 body {
+  body {
   margin: 0;
-  /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: 'Roboto', sans-serif;
-  font-optical-sizing: auto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings: 'wdth' 100;
-  background-color: gray; /* this will be deleted (just for better visualisation) */
+}
+
 }
 
 .header {
